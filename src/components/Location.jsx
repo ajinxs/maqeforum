@@ -1,11 +1,12 @@
 import React from 'react'
+import '../css/Location.css'
 
 const Location = () => {
     
     return (
     
         <>
-            <p>Your current timezone is: <span data-testId="location">Asia/Bangkok</span></p>
+            <p className='main-location'>Your current timezone is: <span data-testId="location">Asia/Bangkok</span></p>
 
         </>
     
