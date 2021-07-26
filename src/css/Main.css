@@ -4,7 +4,7 @@
 }
 
 #post{
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -13,7 +13,7 @@
 
 #card{
     min-width: 100%;
-    min-height: 300px;
+    min-height: 250px;
     border: 1px solid #eee;
     overflow: hidden;
     padding: 10px;
@@ -36,21 +36,19 @@
     padding: 10px;
 }
 
-#card h3{
-    /* text-transform: uppercase; */
-    margin: 10px 0;
-}
-
-#card h3{
-    text-decoration: none;
-    color: #333;
-}
-
 #card p{
     margin: 10px 0;
 }
 
 #post-content{
     padding-left: 310px;
-    margin-top: -230px;
+    margin-top: -220px;
+}
+
+div:nth-of-type(even) {
+    background-color: #cff0fa;
+}
+
+div:nth-of-type(odd) {
+    background-color: #ffffff;
 }
